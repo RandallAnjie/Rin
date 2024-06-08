@@ -31,7 +31,7 @@ function Footer() {
             <div className="flex flex-col mb-8 space-y-2 justify-center items-center h-16 t-primary">
                 <p className="text-sm text-neutral-500 font-normal">
                     © 2024 Powered by <a className='hover:underline' href="https://radallanjie.com" target="_blank">Randall</a>
-                    Forked from <a className='hover:underline' href="https://github.com/OXeu/Rin" target="_blank">Rin</a>
+                    &nbsp;｜&nbsp; Forked from <a className='hover:underline' href="https://github.com/OXeu/Rin" target="_blank">Rin</a>
                 </p>
                 <div className="w-fit-content inline-flex rounded-full border border-zinc-200 p-[3px] dark:border-zinc-700">
                     <ThemeButton mode='light' current={modeState} label="Toggle light mode" icon="ri-sun-line" onClick={setMode} />
